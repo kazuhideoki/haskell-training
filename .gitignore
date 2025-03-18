@@ -1,0 +1,67 @@
+# Haskellビルド成果物
+dist
+dist-*
+cabal-dev
+*.o
+*.hi
+*.hie
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+.hpc
+.hsenv
+.cabal-sandbox/
+cabal.sandbox.config
+*.prof
+*.aux
+*.hp
+*.eventlog
+.stack-work/
+cabal.project.local
+cabal.project.local~
+.HTF/
+.ghc.environment.*
+
+# Stack関連
+.stack-work/
+stack.yaml.lock
+
+# Cabal関連
+.cabal-sandbox/
+cabal.sandbox.config
+cabal.project.local
+cabal.project.local~
+
+# HIEファイル
+*.hie
+
+# Haskell Language Server
+.hie/
+hie.yaml
+
+# エディタ/IDE固有のファイル
+## VSCode
+.vscode/
+## IntelliJ/HaskForce/IntelliJ-Haskell
+.idea/
+*.iml
+## Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# OS固有のファイル
+## macOS
+.DS_Store
+## Windows
+Thumbs.db
+Desktop.ini
+
+# デバッグ/ログファイル
+*.log
+
+# ghcidファイル
+.ghcid
