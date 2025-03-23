@@ -7,8 +7,8 @@ import Data.Function ((&))
 
 main :: IO ()
 main = do
-  line1 <- getLine
-  let intList = map read (words line1) :: [Int]
+  line <- getLine
+  let intList = line & words & map read :: [Int]
       numOfAnswers = head intList
   answers <- replicateM numOfAnswers getLine
 
